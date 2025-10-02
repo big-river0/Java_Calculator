@@ -7,5 +7,10 @@ public class Main {
         calc_add.setNumbers(5,3);
         calc_add.add();
         calc_add.displayResult("+");
+
+        Advanced_Calculator calc_mul = new Advanced_Calculator();
+        calc_mul.setNumbers(10,2);
+        calc_mul.multiply();
+        calc_mul.displayResult("*");
     }
 }

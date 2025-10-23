@@ -12,5 +12,10 @@ public class Main {
         calc_mul.setNumbers(10,2);
         calc_mul.multiply();
         calc_mul.displayResult("*");
+
+        Advanced_Calculator_2 calc_pow = new Advanced_Calculator_2();
+        calc_pow.setNumbers(5,2);
+        calc_pow.power();
+        calc_pow.displayResult("^");
     }
 }

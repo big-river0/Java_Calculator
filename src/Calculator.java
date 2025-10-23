@@ -22,7 +22,7 @@ public class Calculator {
         result = 0;
         for(int i = 0; i < num2; i++){
             result = result + num1;
-            };
+            }
         return result;
     }
 
